@@ -57,4 +57,6 @@ public class DoadorController {
 	
 	//---------------------------------------------------------------------------------------------
 	
+	@RequestMapping(value="/listar")
+	public List<Doador> listar (){return client.listar();}
 }
